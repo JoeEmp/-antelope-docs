@@ -150,8 +150,8 @@ demo: {
     "400phone": {"admin_phone": "400-99999" }
 }
 ```
-![](image/case_value1.png)
-![](image/case_value2.png)
+![](../image/case_value1.png)
+![](../image/case_value2.png)
 
 ### 步骤
 
@@ -229,13 +229,13 @@ case:
     - echo: after 1 sec, case end
     - sleep: 1
 ```
-![](image/step_param.png)
+![](../image/step_param.png)
 
 ### 断言
 
 在框架中断言不会中断用例执行，在执行的过程中如果遇到失败，框架会记录下断言的异常信息。
 
-![](image/step_param2.png)
+![](../image/step_param2.png)
 
 如果你希望严格执行可在`modules/case_executor.py`的`execute_step`注释掉`run_with_assert`装饰器
 ```python
